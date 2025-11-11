@@ -1,0 +1,8 @@
+sender,subject,body,link,label,clue
+IT Support <it-help@unb-support.com>,Password Expiring Today,"Your password expires today. Click the link to avoid account lockout.",https://unb-login.secure-reset.com,phish,"Urgency + off-domain reset URL (not unb.ca)"
+UNB Registrar <registrar@unb.ca>,Fall Term Tuition Receipt,"Your receipt is available in your student portal.",https://my.unb.ca/sis,safe,"Legitimate sender + official portal domain"
+Delivery Notice <notify@parcel-drop.com>,Package on Hold,"We couldn't deliver your package. Pay $1.50 to reschedule.",http://parcel-drop.com/track?id=9382,phish,"Tiny payment request + generic domain"
+Bank Alerts <security@atlanticbank.ca>,Suspicious Login Attempt,"We've detected a login from a new device. Review activity.",https://atlanticbank.ca/security/login,safe,"Bank domain + typical security workflow"
+Student Jobs <careers@unb-jobs.org>,Urgent: Campus Job Opening,"Get paid today for simple tasks. Send your phone number.",http://unb-jobs.org/apply,phish,"Imposter domain (unb-jobs.org) + data harvesting"
+Conference Team <events@cs-conference.ca>,Registration Confirmed,"Thanks for registering. Access your ticket below.",https://cs-conference.ca/ticket/ABC123,safe,"Consistent sender + https org domain"
+Support <no-reply@onedrivestorage.com>,Your Storage Is Full,"Verify your account to increase storage instantly.",http://onedrivestorage.com/verify,phish,"Brand lookalike domain; requests verification"
